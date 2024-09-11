@@ -29,7 +29,7 @@ chrono = "0.4"
 To build and run the program, simply execute the following commands:
 
      cargo build
-    cargo run
+     cargo run
 
 The program will display a greeting and the current time in Indian Standard Time (IST).
 
