@@ -14,3 +14,27 @@ Make sure you have Rust installed. You can install Rust by running:
 
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+#setup
+
+Clone the repository or download the project files.
+Navigate to the project directory:
+
+    cd taskfour_rust
+Ensure the chrono crate is included in Cargo.toml:
+[dependencies]
+chrono = "0.4"
+
+#Running the Program
+
+To build and run the program, simply execute the following commands:
+
+     cargo build
+    cargo run
+
+The program will display a greeting and the current time in Indian Standard Time (IST).
+
+     
+
+
+    
+    
